@@ -9,7 +9,7 @@ A responsive gallery project using HTML, CSS, Bootstrap, and JavaScript to displ
 - Built with modern web development tools: HTML, CSS, Bootstrap, and JavaScript.
 
 ## Live Demo
-Check out the live project here: [Minimalist Gallery](https://GeekyPaws.github.io/minimalist-gallery/)
+Check out the live project here: [Minimalist Gallery]([https://GeekyPaws.github.io/minimalist-gallery/](https://geekypaws.github.io/minimalist-gallery.github.io/))
 
 ## Technologies Used
 - **HTML5**: For the structure of the website.

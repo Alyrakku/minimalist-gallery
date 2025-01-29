@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist Gallery</title>
+    <link rel="icon" href="imgs/logo.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<header>
+    <header class="header">
+        <h1>Gallery of AI Art</h1>
+        <p>Paws, Claws, and Whiskers: A Journey Through Fur and Fun</p>
+    </header>
+</header>
+<!-- cats -->
+<section>
+    <hr>
+    <div class="cats">
+        <h2><strong>Meow in the Matrix: An AI Cat's Journey</strong></h2>
+    </div> 
+</section>
+<section class="gallery">
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/sunset1.jpg" alt="Image 1">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">UrbanWhiskers</div>
+    </div>
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/set2.jpg" alt="Image 2">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">SkylinePaws</div>
+    </div>
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/sunset3.jpg" alt="Image 3">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">SunsetWhiskers</div>
+    </div>
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/sunset4.jpg" alt="Image 4">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">UrbanPurr</div>
+    </div>
+</section>
+<section class="gallery">
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/cat26.jpg" alt="Image 1">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">TwilightCat</div>
+    </div>
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/cat27.jpg" alt="Image 2">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">GoldenMeow</div>
+    </div>
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/cat20.jpg" alt="Image 3">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">PurrsetSky</div>
+    </div>
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/cat22.jpg" alt="Image 4">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">FelineHorizon</div>
+    </div>
+</section>
+
+<!-- dogs -->
+<section>
+    <div class="dogs">
+        <h2><strong>Woofs & Wonders: The AI Dog Revolution</strong></h2>
+    </div>
+</section>
+
+<section class="gallery">
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/redglasses10.jpg" alt="Image 1">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">AnimeBark</div>
+    </div>
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/redglasses12.jpg" alt="Image 2">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">PuppyPose</div>
+    </div>
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/redglasses6.jpg" alt="Image 3">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">StylishPaws</div>
+    </div>
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/redglasses8.jpg" alt="Image 4">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">InuAesthetic</div>
+    </div>
+</section>
+
+<section class="gallery">
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/puppy11.jpg" alt="Image 1">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">ChibiPaws</div>
+    </div>
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/puppy16.jpg" alt="Image 2">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">KawaiiTail</div>
+    </div>
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/puppy2.jpg" alt="Image 3">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">PuppyPose</div>
+    </div>
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/puppy3.jpg" alt="Image 4">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">ChibiWoof</div>
+    </div>
+</section>
+
+<!-- fox -->
+<section>
+    <div class="fox">
+        <h2><strong>Whiskers & Wires: The Digital Fox Adventure</strong></h2>
+    </div> 
+</section>
+<section class="gallery">
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/zorro2.jpg"Image 1">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">ChibiTails</div>
+    </div>
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/zorro3.jpg" alt="Image 2">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">FoxAesthetic</div>
+    </div>
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/zorro10.jpg" alt="Image 3">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">KitsuneVibes</div>
+    </div>
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/zorro9.jpg" alt="Image 4">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">FluffyVibes</div>
+    </div>
+</section>
+<section class="gallery">
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/fox5.jpg" alt="Image 1">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">ChibiFox</div>
+    </div>
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/fox7.jpg" alt="Image 2">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">FoxyKawaii</div>
+    </div>
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/fox8.jpg" alt="Image 3">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">FluffyPose</div>
+    </div>
+    <div class="watermarked" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+        <img src="imgs/fox9.jpg" alt="Image 4">
+        <div class="watermark">© GeekyPawz</div>
+        <div class="image-title">ChibiFur</div>
+    </div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <img id="modalImage" src="" alt="Expanded View" class="img-fluid rounded">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 <strong>Made by GeekyPawz 😊</strong> | Passionate about Creativity</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
